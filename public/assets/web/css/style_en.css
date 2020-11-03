@@ -1,0 +1,212 @@
+body,
+html {
+    direction: ltr;
+}
+
+body,
+html,
+body p,
+.navbar .custom-navbar .nav-links,
+.product-items .status {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.navbar .custom-navbar .nav-list .nav-links::before {
+    left: unset;
+    right: 0;
+}
+
+.search form .butn {
+    left: unset;
+    right: 3px;
+}
+
+.navbar .custom-navbar .drop-nav .nav-links:after {
+    right: 10px;
+}
+
+.navbar .custom-navbar .drop-nav>.drop-down a:after {
+    right: 15px;
+    left: unset;
+    transform: rotate(180deg);
+}
+
+.navbar .custom-navbar .drop-nav i {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.navbar .custom-navbar .drop-nav>.sub-menu {
+    right: unset !important;
+    left: 100%;
+}
+
+.top-nav .r-side li {
+    border-left: 0;
+    border-right: 1px solid #fff9;
+}
+
+.top-nav .call-info {
+    justify-content: flex-end;
+}
+
+header .swiper-head .swiper-numbers {
+    left: 70px;
+    right: unset;
+}
+
+header .swiper-head .swiper-prev {
+    left: 40px;
+    right: unset;
+}
+
+header .swiper-head .swiper-next {
+    left: 150px;
+    right: unset;
+}
+
+footer .items h4:after {
+    right: unset;
+    left: 0;
+}
+
+.butn span i {
+    left: unset;
+    right: 5px;
+    transform: rotate(180deg);
+}
+
+.product-items .product-price .discount {
+    margin-left: 30px;
+    margin-right: 0;
+}
+
+.checkout-form .accordion .btn-link {
+    text-align: left;
+}
+
+.checkout-form .accordion .profile-info .butn,
+.checkout-form .accordion .pay .coupon li span,
+.cart-pg .checkout ul li span {
+    float: right !important;
+}
+
+.profile-pg .tabs .tab-content .fav .items .close,
+.profile-pg .tabs .tab-content .fav .items .edit {
+    left: unset;
+    right: 15px;
+}
+
+.product-details .info .items .prod-price span {
+    margin-right: 0;
+    margin-left: 50px;
+}
+
+.side-small-title small {
+    float: right;
+}
+
+.stars {
+    direction: rtl;
+}
+
+.search-area li {
+    margin-left: 0;
+    padding-left: 0;
+    border-left: 0;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #fff9;
+}
+
+.cart-menu li .info {
+    text-align: left;
+}
+
+.cart-menu li .img {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.cart-menu li .close {
+    left: unset;
+    right: 0;
+}
+
+.cart-menu .total {
+    text-align: left;
+}
+
+.cart-menu .total span {
+    float: right;
+}
+
+.navbar .custom-navbar .nav-links span {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.section-head h2:after {
+    right: unset;
+    left: 0;
+}
+
+.nav-user .icon {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+footer .foot .items a:nth-of-type(2) {
+    border-left: 1px solid #fff;
+    border-right: 0;
+}
+
+footer .items a i,
+footer .items.subscribe p i {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+
+/* -------- navbar ltr ---------- */
+
+.navbar .custom-navbar .nav-list {
+    right: unset;
+    left: -100%;
+    text-align: left;
+}
+
+.navbar .custom-navbar .nav-list.show {
+    right: unset;
+    left: 0;
+}
+
+.navbar .custom-navbar .nav-toggle {
+    float: right;
+}
+
+.navbar .custom-navbar .navbar-brand {
+    float: left;
+}
+
+.navbar .custom-navbar .drop-nav .drop-down {
+    right: unset;
+    left: 0;
+    text-align: left;
+}
+
+@media screen and (max-width: 991px) {
+    .navbar .custom-navbar .drop-nav>.sub-menu {
+        left: 0 !important;
+    }
+}

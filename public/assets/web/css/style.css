@@ -1,0 +1,4247 @@
+@font-face {
+    font-family: "JF_Flat";
+    src: url("../fonts//JF-Flat-regular.eot");
+    src: url("../fonts//JF-Flat-regular.eot?#iefix") format("embedded-opentype"), url("../fonts//JF-Flat-regular.svg#JF Flat Regular") format("svg"), url("../fonts//JF-Flat-regular.woff") format("woff"), url("../fonts//JF-Flat-regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* ----------------------------------------------------------------
+   [  Start Basics ]
+-----------------------------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+}
+
+body {
+    color: #21242d;
+    line-height: 1.3;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Tajawal", "Cairo", sans-serif;
+    text-align: right;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+p,
+.text {
+    font-size: 15px;
+    font-weight: 400;
+    color: #6f6f6f;
+    line-height: 30px;
+    margin: 0;
+}
+
+section {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.parallox {
+    position: relative;
+    bottom: -30px;
+}
+
+.main-color {
+    color: #1591e5;
+}
+
+.sub-color {
+    color: #21242d;
+}
+
+.main-bg-color {
+    background-color: #1591e5;
+    color: #fff;
+}
+
+.sub-bg-color {
+    background-color: #21242d;
+    color: #fff;
+}
+
+.section-head {
+    margin-bottom: 50px;
+}
+
+.section-head h4 img {
+    width: 30px;
+    display: none;
+}
+
+.section-head h4 span {
+    margin: 0;
+    font-weight: 700;
+    font-size: 22px;
+    padding-bottom: 15px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.section-head h4 span:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 4px;
+    width: 50%;
+    background: #1591e5;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+span,
+a,
+a:hover {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+a:focus,
+a:hover {
+    color: inherit;
+    outline: none;
+}
+
+.icon {
+    line-height: 1;
+}
+
+.section-padding {
+    padding: 120px 0;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+.sam-height {
+    height: 100%;
+}
+
+.half-padding {
+    padding: 120px 5%;
+}
+
+.bg-gray {
+    background: #f6f7ff;
+    position: relative;
+}
+
+.o-hidden {
+    overflow: hidden;
+}
+
+.ontop {
+    position: relative;
+    z-index: 4;
+}
+
+.position-re {
+    position: relative;
+}
+
+.full-width {
+    width: 100% !important;
+}
+
+.lg-line-height {
+    line-height: 1.5;
+}
+
+.bg-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+}
+
+.valign {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+[data-overlay-dark="10"]:before {
+    background: #1591e5;
+    background: -webkit-linear-gradient(315deg, #1591e5, #049999);
+    background: -o-linear-gradient(315deg, #1591e5, #049999);
+    background: linear-gradient(135deg, #1591e5, #049999);
+}
+
+.slick-dots li {
+    width: 7px;
+    height: 5px;
+    background: #eee;
+    border-radius: 10px;
+}
+
+.slick-dots li.slick-active {
+    width: 20px;
+    background: #21242d;
+}
+
+.slick-dots li button {
+    display: none;
+}
+
+
+/* ----------------------------------------------------------------
+   [ End Basics ]
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+   [  Start Buttons ]
+-----------------------------------------------------------------*/
+
+.butn {
+    text-align: center;
+    background: transparent;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    padding: 17px 35px;
+    border-radius: 10px;
+}
+
+.butn span {
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    font-size: 16px;
+}
+
+.butn i {
+    display: inline-block;
+    padding: 14px 15px;
+    line-height: 1.6;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.butn-bg {
+    background: #1591e5;
+    border-color: #1591e5;
+}
+
+.butn-bg:hover {
+    background: #21242d;
+    border-color: #21242d;
+}
+
+.butn-bg span {
+    color: #fff;
+}
+
+.butn-bg i {
+    color: #fff;
+    background: #21242d;
+}
+
+.butn-light {
+    background: #fff;
+    border-color: #fff;
+}
+
+.butn-light:hover {
+    background: #1591e5;
+    border-color: #1591e5;
+}
+
+.butn-light:hover span {
+    color: #fff;
+}
+
+.butn-light:hover i {
+    background: transparent;
+    color: #fff;
+}
+
+.butn-light span {
+    color: #1591e5;
+}
+
+.butn-light i {
+    background: #fbfbfd;
+}
+
+.pat {
+    position: absolute;
+}
+
+
+/* ----------------------------------------------------------------
+   [ End Buttons ]
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+   [  Start navbar ]
+-----------------------------------------------------------------*/
+
+.news-line {
+    height: 40px;
+    background: #2e313b;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.news-line .news-l {
+    line-height: 40px;
+}
+
+.news-line .text {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 90px;
+    height: 100%;
+    background: #1591e5;
+    color: #fff;
+    text-align: center;
+}
+
+.news-line .text h6 {
+    margin-top: 10px;
+}
+
+.news-line span {
+    margin: 0 15px;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.news-line:after {
+    content: "";
+    top: 0;
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    width: 100%;
+    height: 220px;
+    position: absolute;
+    z-index: 1;
+    -webkit-animation: slide 5s infinite;
+    animation: slide 5s infinite;
+    opacity: 0.2;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(50%, rgba(255, 255, 255, 0.8)), color-stop(99%, rgba(128, 186, 232, 0)), to(rgba(125, 185, 232, 0)));
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(128, 186, 232, 0) 99%, rgba(125, 185, 232, 0) 100%);
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(128, 186, 232, 0) 99%, rgba(125, 185, 232, 0) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.8) 50%, rgba(128, 186, 232, 0) 99%, rgba(125, 185, 232, 0) 100%);
+}
+
+
+/* animation */
+
+@-webkit-keyframes slide {
+    0% {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+    100% {
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+}
+
+@keyframes slide {
+    0% {
+        -webkit-transform: translateX(-100%);
+        transform: translateX(-100%);
+    }
+    100% {
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+}
+
+.navbar {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 40px;
+    padding: 0;
+    border: 0;
+    color: #fff;
+    z-index: 99999;
+}
+
+.navbar.not-fixed {
+    position: relative;
+}
+
+.navbar:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #21242d;
+    opacity: 0.67;
+}
+
+.navbar .container {
+    position: relative;
+    z-index: 3;
+}
+
+.navbar .icon-bar {
+    cursor: pointer;
+    display: none;
+}
+
+.navbar .right .login {
+    padding: 12px 15px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.navbar .right .login:hover {
+    background: #1591e5;
+    border-color: #1591e5;
+}
+
+.navbar .right .login .icon {
+    width: 14px;
+    margin-left: 8px;
+}
+
+.navbar .right .search-icon {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.navbar .logo {
+    width: 200px;
+}
+
+.navbar .navbar-collapse {
+    position: relative;
+    text-align: center;
+}
+
+.navbar .navbar-collapse .search-form {
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.navbar .navbar-collapse .search-form.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.navbar .navbar-collapse .search-form input {
+    padding: 12px 15px;
+    border-radius: 30px;
+    border: 0;
+    width: 300px;
+    margin: auto;
+    background: #2e313b;
+    color: #fff;
+}
+
+.navbar .navbar-nav {
+    -webkit-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.navbar .navbar-nav.hidde {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.navbar .navbar-nav .nav-item {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.navbar .navbar-nav .nav-item img {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: auto;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    display: block;
+}
+
+.navbar .navbar-nav .dropdown-menu {
+    color: #fff;
+    background: #21242d;
+    -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    width: 380px;
+    border: none;
+    border-radius: 0px;
+    margin-top: 25px;
+    right: -100%;
+}
+
+.navbar .navbar-nav .dropdown-menu .dropdown-item {
+    padding: 10px 25px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.navbar .navbar-nav .dropdown-menu .dropdown-item:hover {
+    background: #2e313b;
+}
+
+.nav-scroll {
+    background: #181a1f;
+    padding: 0;
+    position: fixed;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    -webkit-transition: -webkit-transform 0.7s;
+    transition: -webkit-transform 0.7s;
+    -o-transition: transform 0.7s;
+    transition: transform 0.7s;
+    transition: transform 0.7s, -webkit-transform 0.7s;
+    -webkit-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    transform: translateY(100px);
+}
+
+.nav-scroll .logo {
+    width: 150px;
+}
+
+.nav-scroll .navbar-nav:before,
+.nav-scroll .navbar-nav:after {
+    opacity: 1;
+}
+
+
+/* ----------------------------------------------------------------
+   [ End navbar ]
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+  [  Start header ]
+-----------------------------------------------------------------*/
+
+.home {
+    min-height: 110vh;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+}
+
+.home .caption h1 {
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.home .caption p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.home .caption .buttn {
+    padding: 20px 40px;
+    background: rgba(255, 255, 255, 0.88);
+    margin-top: 20px;
+}
+
+.home .caption .buttn span {
+    color: inherit;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.home .caption .buttn img {
+    margin-left: 10px;
+    width: 25px;
+}
+
+.home .box {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 40px 100px 40px 80px;
+    bottom: 0;
+    right: 0;
+    background: #21242d;
+    z-index: 4;
+}
+
+.home .box .icon {
+    width: 76px;
+    height: 76px;
+    line-height: 76px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-left: 15px;
+}
+
+.home .box .text h6 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.home .box .text p {
+    font-size: 12px;
+    font-weight: 300;
+    color: #fff;
+    width: 85%;
+    line-height: 1.8;
+}
+
+.home .box .arrow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 90px;
+    background: #2e313b;
+}
+
+.vid-sec {
+    height: 70vh;
+    min-height: 500px;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 10px solid #000;
+    background-color: #000;
+}
+
+.swiper-head {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-head .swiper-slide {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    height: 110vh;
+    min-height: 600px;
+    padding-top: 30vh;
+}
+
+.swiper-head .swiper-slide:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.4;
+    z-index: 5;
+}
+
+.swiper-head .swiper-slide img.bkg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-head .swiper-notification {
+    display: none;
+}
+
+.swiper-head .swiper-slide .ontop {
+    position: relative;
+    z-index: 10;
+}
+
+.swiper-head .swiper-slide .caption {
+    transition: all 1s ease;
+    opacity: 0.5;
+    transform: scale(0.8) translateY(-100px);
+    filter: blur(10px);
+}
+
+.swiper-head .swiper-slide.swiper-slide-active .caption {
+    transition: all 1s ease;
+    opacity: 1;
+    transform: scale(1) translateY(0);
+    filter: blur(0);
+}
+
+
+/* ----------------------------------------------------------------
+   [ End header ]
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+   [  Start about ]
+-----------------------------------------------------------------*/
+
+.about {
+    position: relative;
+}
+
+.about .img {
+    width: 630px;
+    height: 630px;
+    border-radius: 50%;
+    position: relative;
+    right: -30%;
+    top: 0;
+}
+
+.about .img:after {
+    content: "";
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: 630px;
+    height: 630px;
+    background: #1591e5;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.about .img:before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 630px;
+    height: 630px;
+    border: 1px solid #1591e5;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.about .content .tab-pane .text {
+    font-size: 16px;
+    line-height: 2.2;
+}
+
+.about .content .tab-pane .buttn {
+    padding: 20px 40px;
+    border: 1px solid #1591e5;
+    color: #1591e5;
+    margin-top: 50px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.about .content .tab-pane .buttn:hover {
+    background: #21242d;
+    border-color: #21242d;
+}
+
+.about .content .tab-pane .buttn span {
+    color: inherit;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.about .content .tab-pane .buttn img {
+    margin-left: 10px;
+    width: 25px;
+}
+
+.about .pat.one {
+    bottom: 15%;
+    right: -50px;
+}
+
+.about .pat.two {
+    bottom: 0%;
+    right: -20px;
+    z-index: -1;
+}
+
+.nav-pills {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #9993;
+}
+
+.nav-pills li {
+    position: relative;
+    margin: 0 0 0 15px;
+    color: #777;
+    z-index: 2;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.nav-pills li:after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: transparent;
+    opacity: 0.88;
+    z-index: -1;
+}
+
+.nav-pills li.active:after {
+    background: #1592e6;
+}
+
+.nav-pills li img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.nav-pills li a {
+    padding: 10px;
+}
+
+
+/* ----------------------------------------------------------------
+   [ End about ]
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+   [  Start video ]
+-----------------------------------------------------------------*/
+
+.video .video-content,
+.live .video-content {
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.video .video-content:after,
+.live .video-content:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #151313;
+    opacity: 0.38;
+    z-index: -1;
+}
+
+.video .video-content .vid,
+.live .video-content .vid {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 50px);
+    background: rgba(21, 145, 229, 0.4);
+}
+
+.video .video-content .vid img,
+.live .video-content .vid img {
+    width: 30px;
+}
+
+.video {
+    position: relative;
+}
+
+.video .pat.one {
+    top: 35%;
+    right: 50px;
+}
+
+.video .pat.two {
+    top: 35%;
+    left: 50px;
+}
+
+.live {
+    background-position: right;
+}
+
+.live:before {
+    background: #21242d;
+}
+
+.live .video-content {
+    height: 500px;
+}
+
+.live .video-content .liv {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px 30px;
+    background: #f02121;
+    color: #fff;
+    font-size: 20px;
+}
+
+.live .video-content .cont {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    padding: 25px 30px;
+    color: #fff;
+    font-size: 20px;
+    z-index: 2;
+}
+
+.live .video-content .cont h4 {
+    font-size: 25px;
+}
+
+.live .video-content .cont:after {
+    content: "";
+    background: -webkit-gradient(linear, left top, right top, from(#000000), to(#6d6d6d));
+    background: -webkit-linear-gradient(left, #000000, #6d6d6d);
+    background: -o-linear-gradient(left, #000000, #6d6d6d);
+    background: linear-gradient(to right, #000000, #6d6d6d);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+
+/* ----------------------------------------------------------------
+   [ End video ]
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+   [  Start services ]
+-----------------------------------------------------------------*/
+
+.services .item {
+    padding: 0 10px;
+}
+
+.services .item .img {
+    border: 1px solid #e2e2e2;
+    border-bottom: 0;
+    height: 260px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+}
+
+.services .item .img span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 20px 70px;
+    background: #21242d;
+    color: #fff;
+}
+
+.services .item .cont {
+    border: 1px solid #e2e2e2;
+    border-top: 0;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.services .item .cont h6 {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 30px 0;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.services .item .cont .buttn {
+    background: #21242d;
+    width: 96%;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    margin: 10px auto 15px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.services .item .cont .buttn:hover {
+    background: #1591e5;
+}
+
+.services .item .cont .buttn img {
+    margin-left: 10px;
+    width: 25px;
+    display: inline-block;
+}
+
+.services .item .cont .buttn span {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.course .item .cont {
+    border: 1px solid #e2e2e2;
+    border-top: 0;
+    text-align: center;
+    padding: 30px 10px 0;
+}
+
+.course .item .cont h6 {
+    font-size: 20px;
+    padding: 0;
+    border: 0;
+}
+
+.course .item .cont .rate {
+    color: #e6bc48;
+}
+
+.course .item .cont .rate-text {
+    color: #9b9b9b;
+}
+
+.course .item .cont .info {
+    border-top: 1px solid #e2e2e2;
+    margin-top: 20px;
+    padding-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.course .item .cont .info span {
+    width: 100%;
+    border-left: 1px solid #e2e2e2;
+    margin-bottom: 10px;
+}
+
+.course .item .cont .info span:last-of-type {
+    border: 0;
+}
+
+.course .item .cont .info span .icon {
+    color: #1591e5;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.services .container,
+.course .container {
+    position: relative;
+    z-index: 2;
+}
+
+.services .arrows,
+.course .arrows {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+}
+
+.services .arrows .next,
+.services .arrows .prev,
+.course .arrows .next,
+.course .arrows .prev {
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    color: #1591e5;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: -1;
+}
+
+.services .arrows .next:after,
+.services .arrows .prev:after,
+.course .arrows .next:after,
+.course .arrows .prev:after {
+    content: "";
+    position: absolute;
+    top: -120px;
+    left: -125px;
+    width: 300px;
+    height: 300px;
+    background-image: url(../images/pat/arrow.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+
+.services .arrows .prev,
+.course .arrows .prev {
+    right: auto;
+    left: -50px;
+}
+
+.course-details .tab-content {
+    border: 1px solid #eee;
+    padding: 40px;
+}
+
+.course-details .tab-content .content-course .btn-all-download {
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 60px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.course-details .tab-content .content-course .btn-all-download:hover {
+    background: #1591e5;
+    border-color: #1591e5;
+    color: #fff;
+}
+
+.course-details .tab-content .content-course .btn-all-download .icon {
+    width: 13px;
+    margin-left: 10px;
+}
+
+.course-details .tab-content .content-course .lessons li {
+    color: #3b3d40;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+.course-details .tab-content .content-course .lessons li .tit {
+    font-size: 21px;
+}
+
+.course-details .tab-content .content-course .lessons li .tit:hover i {
+    border-color: #1591e5;
+    color: #1591e5;
+}
+
+.course-details .tab-content .content-course .lessons li .tit i {
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #dddddd;
+    color: #838d8f;
+    font-size: 12px;
+    margin-left: 15px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.course-details .tab-content .content-course .lessons li .tit.active i {
+    background: #1591e5;
+    border-color: #1591e5;
+    color: #fff;
+}
+
+.course-details .tab-content .content-course .lessons li .duration {
+    font-size: 21px;
+    margin-right: auto;
+}
+
+.course-details .tab-content .content-course .lessons li .download-btn {
+    margin-right: 50px;
+}
+
+.course-details .tab-content .content-course .lessons li .download-btn .icon {
+    width: 15px;
+}
+
+.course-details .tab-content .stitle h5 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.course-details .tab-content .author {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.course-details .tab-content .author .img {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.course-details .tab-content .author .img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center center;
+    object-position: center center;
+}
+
+.course-details .tab-content .author .info {
+    float: left;
+    margin: 25px 20px 0 0;
+}
+
+.course-details .tab-content .author .info h6 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.course-details .tab-content .author .info h6 span {
+    display: block;
+    color: #1591e5;
+    margin-bottom: 5px;
+}
+
+.course-details .tab-content .list ul li {
+    color: #262a41;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    padding-right: 30px;
+    position: relative;
+}
+
+.course-details .tab-content .list ul li:after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #1591e5;
+}
+
+.course-details .tab-content .download-pdf {
+    text-align: center;
+}
+
+.course-details .tab-content .download-pdf .dwld {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    background: #1591e5;
+    color: #fff;
+    text-align: center;
+    width: 300px;
+    margin: 100px auto;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.course-details .tab-content .download-pdf .dwld .icon {
+    margin-left: 10px;
+}
+
+.course-details .tab-content .download-pdf .dwld:hover {
+    background: #21242d;
+}
+
+
+/* ----------------------------------------------------------------
+   [ End services ]
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+   [  Start subscribe ]
+-----------------------------------------------------------------*/
+
+.subscribe {
+    background: #222530;
+    color: #fff;
+}
+
+.subscribe h4 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.subscribe p {
+    font-size: 18px;
+    color: #fff;
+}
+
+.subscribe form {
+    margin-top: 40px;
+}
+
+.subscribe form .form-group {
+    position: relative;
+}
+
+.subscribe form .form-group input {
+    width: 100%;
+    background: #fff;
+    font-size: 18px;
+    border: 0;
+    padding: 35px 200px 35px 30px;
+}
+
+.subscribe form .form-group button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border: 0;
+    padding: 25px 0;
+    text-align: center;
+    font-size: 18px;
+    width: 180px;
+    background: #21242d;
+    color: #fff;
+}
+
+.subscribe form .form-group button i {
+    margin-left: 15px;
+    font-size: 16px;
+}
+
+
+/* ----------------------------------------------------------------
+   [ End subscribe ]
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+   [ Start Footer ]
+-----------------------------------------------------------------*/
+
+footer .main-footer {
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+footer .main-footer .item .logo {
+    margin-bottom: 15px;
+}
+
+footer .main-footer .item .social {
+    margin-top: 30px;
+    position: relative;
+    z-index: 9;
+}
+
+footer .main-footer .item .social a {
+    color: #fff;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+footer .main-footer .item .title {
+    font-weight: 700;
+    font-size: 18px;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+footer .main-footer .item .title:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 60px;
+    height: 4px;
+    background: #1592e6;
+}
+
+footer .main-footer .item ul li {
+    margin: 15px 0;
+}
+
+footer .main-footer .item ul li .icon {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 8px;
+    position: relative;
+    text-align: center;
+    top: -5px;
+    margin-left: 10px;
+    filter: invert(44%) sepia(31%) saturate(3032%) hue-rotate(181deg) brightness(96%) contrast(89%);
+}
+
+footer .main-footer .pat.one {
+    top: 0;
+    right: -150px;
+}
+
+footer .main-footer .pat.two {
+    top: 0;
+    right: 40%;
+    width: 200px;
+    z-index: -1;
+}
+
+footer .main-footer .pat.three {
+    top: 10%;
+    left: 50px;
+}
+
+footer .sub-footer {
+    padding: 30px 0;
+    position: relative;
+    color: #fff;
+    z-index: 3;
+}
+
+footer .sub-footer:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #21242d;
+    opacity: 0.67;
+}
+
+footer .sub-footer .text-right {
+    text-align: right !important;
+}
+
+footer .sub-footer .text-right a {
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: 1px solid #eee;
+    font-size: 14px;
+}
+
+footer .sub-footer .text-right a:last-of-type {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+footer .sub-footer .text-left {
+    text-align: left !important;
+}
+
+footer .sub-footer .text-left h6 {
+    font-size: 14px;
+}
+
+footer .sub-footer .to-top {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    background: #fff;
+    color: #1591e5;
+    font-size: 20px;
+    top: -25px;
+    left: calc(50% - 25px);
+    -webkit-box-shadow: 4px -7px 5px rgba(0, 0, 0, 0.05) inset, 4px -2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 4px -7px 5px rgba(0, 0, 0, 0.05) inset, 4px -2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 3;
+    cursor: pointer;
+}
+
+footer .sub-footer .to-top ion-icon {
+    position: relative;
+    top: 5px;
+}
+
+
+/* ----------------------------------------------------------------
+   [ End Footer ]
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+   [  Start login & Register ]
+-----------------------------------------------------------------*/
+
+.login-sec {
+    min-height: 120vh;
+    margin-top: 100px;
+}
+
+.login-sec .bg-img {
+    background-position: right;
+    position: relative;
+}
+
+.login-sec .bg-img:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #403f3f;
+    opacity: 0.3;
+}
+
+.login-sec .bg-img .title {
+    color: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.login-sec .bg-img .title h3 {
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.login-sec .bg-img .title h6 {
+    font-size: 20px;
+}
+
+.login-sec .form {
+    min-height: 120vh;
+    padding-left: 10%;
+    position: relative;
+}
+
+.login-sec .form .title h5 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.login-sec .form form {
+    position: relative;
+    right: -50px;
+}
+
+.login-sec .form form .form-group {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.login-sec .form form .form-group .icon {
+    font-size: 25px;
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    color: #1591e5;
+}
+
+.login-sec .form input,
+.login-sec .form .box {
+    width: 100%;
+    padding: 25px 55px 25px 25px;
+    background: #fff;
+    border-radius: 15px;
+    border: 0;
+    -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.login-sec .form button {
+    padding: 20px 40px;
+    background: #1591e5;
+    border: 0;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: 700;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.login-sec .form button:hover {
+    background: #21242d;
+}
+
+.login-sec .form select {
+    width: 100%;
+    border: 0;
+    cursor: pointer;
+}
+
+.login-sec .form .rem {
+    float: left;
+    margin-top: 25px;
+}
+
+.login-sec .form .rem input {
+    width: auto;
+    display: inline-block;
+    padding: 0;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.login-sec .form .gen {
+    float: left;
+    margin-left: 25px;
+}
+
+.login-sec .form .gen input {
+    width: auto;
+    display: inline-block;
+    padding: 0;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.login-sec .form .info {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    padding-left: 10%;
+}
+
+.login-sec .form .info p {
+    font-weight: 700;
+    color: #181a1f;
+}
+
+.login-sec .form .info p a {
+    color: #1591e5;
+}
+
+.login-sec .soical-login {
+    margin-top: 60px;
+}
+
+.login-sec .soical-login .or {
+    position: relative;
+    text-align: center;
+}
+
+.login-sec .soical-login .or:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #eee;
+    z-index: -1;
+}
+
+.login-sec .soical-login .or span {
+    padding: 0 30px;
+    background: #fff;
+}
+
+.login-sec .soical-login .face-log {
+    padding: 30px;
+    width: 50%;
+    background: #3d5a96;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: right;
+    overflow: hidden;
+}
+
+.login-sec .soical-login .face-log:hover {
+    -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-sec .soical-login .face-log i {
+    float: left;
+    position: relative;
+}
+
+.login-sec .soical-login .face-log i:after {
+    content: "";
+    width: 1px;
+    height: 40px;
+    background: #eee;
+    position: absolute;
+    right: -25px;
+    top: -10px;
+    opacity: 0.4;
+}
+
+
+/* ----------------------------------------------------------------
+   [ End login & Register ]
+-----------------------------------------------------------------*/
+
+
+/* ----------------------------------------------------------------
+  [ start students ]
+-----------------------------------------------------------------*/
+
+.levels-box .tit-head {
+    text-align: right;
+}
+
+.levels-box .tit-head .bolder {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.levels-box .tit-head .sub-bolder {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.levels-box .box-border {
+    border: 1px solid #eee;
+    text-align: center;
+    padding: 50px;
+}
+
+.levels-box .box-border a {
+    display: block;
+}
+
+.levels-box .bordtop {
+    margin-top: 80px;
+    padding-top: 40px;
+    border-top: 1px solid #eee;
+}
+
+.levels-box .item {
+    padding: 80px 30px;
+    text-align: center;
+    -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.03);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+    margin: 25px 0;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    position: relative;
+}
+
+.levels-box .item .char span {
+    width: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.levels-box .item .char span:first-of-type {
+    height: 50px;
+}
+
+.levels-box .item .char span:nth-of-type(2) {
+    height: 40px;
+}
+
+.levels-box .item .char span:nth-of-type(3) {
+    height: 30px;
+}
+
+.levels-box .item .char span:nth-of-type(4) {
+    height: 20px;
+}
+
+.levels-box .item .char span:last-of-type {
+    height: 10px;
+}
+
+.levels-box .item .char span.active {
+    background: #1591e5;
+    border-color: #1591e5;
+}
+
+.levels-box .item h5 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.levels-box .item .lab {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.levels-box .item .lab.done {
+    color: #0bb709;
+}
+
+.levels-box .item .lab.procs {
+    color: #b78909;
+}
+
+.levels-box .item:hover {
+    background: #1591e5;
+    color: #fff;
+}
+
+.levels-box .item:hover .char span.active {
+    background: #fff;
+    border-color: #fff;
+}
+
+.levels-box .item:hover .lab {
+    color: #eee;
+}
+
+.levels-box .box-item {
+    padding: 0px 30px 40px;
+    text-align: center;
+    -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.03);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+}
+
+.levels-box .box-item h5 {
+    padding: 15px;
+    background: #1591e5;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.students .filters {
+    margin-bottom: 80px;
+}
+
+.students .filters h6 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1591e5;
+    display: inline-block;
+}
+
+.students .filters .box {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.students .filters .box select {
+    border: 0;
+    font-size: 13px;
+    color: #2e2e2e;
+    min-width: 140px;
+    border-bottom: 1px solid #eee;
+}
+
+.students .item {
+    padding: 30px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.students .item .author .img {
+    display: table-cell;
+    width: 120px;
+}
+
+.students .item .author .cont {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.students .item .author .cont .text {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.students .item .levels {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #f2f4fe;
+}
+
+.students .item .levels h6 {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.students .item .levels .dots {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.students .item .levels .dots span {
+    width: 30px;
+    height: 6px;
+    background: #dee0eb;
+    border-radius: 5px;
+    margin: 0 5px;
+    position: relative;
+}
+
+.students .item .levels .dots span.active {
+    width: 60px;
+    background: #1591e5;
+}
+
+.students .item .levels .dots span.active:after {
+    content: attr(data-numb);
+    position: absolute;
+    top: -20px;
+    left: 45%;
+    font-weight: 700;
+    color: #1591e5;
+}
+
+.author-box .box-border {
+    border: 1px solid #eee;
+    text-align: center;
+    padding: 0 30px 50px;
+}
+
+.author-box .bolder {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.author-box .sub-bolder {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.author-box .row.bord {
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #eee;
+}
+
+.author-box .author {
+    position: relative;
+    top: -50px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 40px;
+}
+
+.author-box .author .img {
+    margin-bottom: 15px;
+}
+
+.author-box .author .cont p {
+    font-size: 15px;
+    font-weight: 300;
+    color: #21242d;
+}
+
+.author-box .item h6 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1591e5;
+}
+
+.author-box .levels {
+    text-align: center;
+}
+
+.author-box .levels .dots {
+    margin-top: 40px;
+}
+
+.author-box .levels .dots span {
+    width: 30px;
+    height: 6px;
+    background: #dee0eb;
+    border-radius: 5px;
+    margin: 0 5px;
+    position: relative;
+}
+
+.author-box .levels .dots span.active {
+    width: 60px;
+    background: #1591e5;
+}
+
+.author-box .levels .dots span.active:after {
+    content: attr(data-numb);
+    position: absolute;
+    top: -20px;
+    left: 45%;
+    font-weight: 700;
+    color: #1591e5;
+}
+
+.author-box .status {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.author-box .status .deg {
+    color: #1591e5;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.author-box .status.green .deg {
+    color: #5acf17;
+}
+
+.author-box .status.red .deg {
+    color: #fc6277;
+}
+
+.progress-circle {
+    background-color: #eee;
+    border-radius: 50%;
+    display: inline-block;
+    height: 100px;
+    position: relative;
+    width: 100px;
+}
+
+.progress-circle .numb {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.progress-circle .numb span {
+    display: block;
+    width: 50px;
+    padding: 5px 0;
+    font-weight: 600;
+}
+
+.progress-circle .numb span:first-of-type {
+    color: #1591e5;
+    border-bottom: 1px solid #eee;
+}
+
+.progress-circle:before {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    content: "";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: absolute;
+    left: 3px;
+    right: 3px;
+    top: 3px;
+    bottom: 3px;
+    -webkit-transition: -webkit-transform 0.2s ease;
+    transition: -webkit-transform 0.2s ease;
+    -o-transition: transform 0.2s ease;
+    transition: transform 0.2s ease;
+    transition: transform 0.2s ease, -webkit-transform 0.2s ease;
+}
+
+.progress-circle:after {
+    background-color: #1591e5;
+    border-radius: 50%;
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.progress-circle[data-progress="0"]:after {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #ddd), color-stop(50%, transparent), to(transparent)), -webkit-gradient(linear, left top, right top, color-stop(50%, #1591e5), color-stop(50%, #ddd), to(#ddd));
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(left, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(left, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(90deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="1"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(356.4deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(356.4deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(93.6deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="2"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(352.8deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(352.8deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(97.2deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="3"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(349.2deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(349.2deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(100.8deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="4"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(345.6deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(345.6deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(104.4deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="5"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(342deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(342deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(108deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="6"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(338.4deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(338.4deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(111.6deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="7"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(334.8deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(334.8deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(115.2deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="8"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(331.2deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(331.2deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(118.8deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="9"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(327.6deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(327.6deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(122.4deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="10"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(324deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(324deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(126deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="11"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(320.4deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(320.4deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(129.6deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="12"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(316.8deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(316.8deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(133.2deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="13"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(313.2deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(313.2deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(136.8deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="14"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(309.6deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(309.6deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(140.4deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="15"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(306deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(306deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(144deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="16"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(302.4deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(302.4deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(147.6deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="17"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(298.8deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(298.8deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(151.2deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="18"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(295.2deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(295.2deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(154.8deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="19"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(291.6deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(291.6deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(158.4deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="20"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(288deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(288deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(162deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="21"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(284.4deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(284.4deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(165.6deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="22"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(280.8deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(280.8deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(169.2deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="23"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(277.2deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(277.2deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(172.8deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="24"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(273.6deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(273.6deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(176.4deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="25"]:after {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #ddd), color-stop(50%, transparent), to(transparent)), -webkit-gradient(linear, left top, left bottom, color-stop(50%, #1591e5), color-stop(50%, #ddd), to(#ddd));
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(top, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(top, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(180deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="26"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(266.4deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(266.4deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(183.6deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="27"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(262.8deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(262.8deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(187.2deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="28"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(259.2deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(259.2deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(190.8deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="29"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(255.6deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(255.6deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(194.4deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="30"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(252deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(252deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(198deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="31"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(248.4deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(248.4deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(201.6deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="32"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(244.8deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(244.8deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(205.2deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="33"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(241.2deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(241.2deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(208.8deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="34"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(237.6deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(237.6deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(212.4deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="35"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(234deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(234deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(216deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="36"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(230.4deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(230.4deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(219.6deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="37"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(226.8deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(226.8deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(223.2deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="38"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(223.2deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(223.2deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(226.8deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="39"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(219.6deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(219.6deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(230.4deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="40"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(216deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(216deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(234deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="41"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(212.4deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(212.4deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(237.6deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="42"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(208.8deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(208.8deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(241.2deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="43"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(205.2deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(205.2deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(244.8deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="44"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(201.6deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(201.6deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(248.4deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="45"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(198deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(198deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(252deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="46"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(194.4deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(194.4deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(255.6deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="47"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(190.8deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(190.8deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(259.2deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="48"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(187.2deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(187.2deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(262.8deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="49"]:after {
+    background-image: -webkit-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -webkit-linear-gradient(183.6deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #ddd 50%, transparent 50%, transparent), -o-linear-gradient(183.6deg, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #ddd 50%, transparent 50%, transparent), linear-gradient(266.4deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="50"]:after {
+    background-image: -webkit-gradient(linear, right top, left top, color-stop(50%, #1591e5), color-stop(50%, transparent), to(transparent)), -webkit-gradient(linear, right top, left top, color-stop(50%, #1591e5), color-stop(50%, #ddd), to(#ddd));
+    background-image: -webkit-linear-gradient(right, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(right, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(-90deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="51"]:after {
+    background-image: -webkit-linear-gradient(176.4deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(176.4deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(-86.4deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="52"]:after {
+    background-image: -webkit-linear-gradient(172.8deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(172.8deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(-82.8deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="53"]:after {
+    background-image: -webkit-linear-gradient(169.2deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(169.2deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(-79.2deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="54"]:after {
+    background-image: -webkit-linear-gradient(165.6deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(165.6deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(-75.6deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="55"]:after {
+    background-image: -webkit-linear-gradient(162deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(162deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(-72deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="56"]:after {
+    background-image: -webkit-linear-gradient(158.4deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(158.4deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(-68.4deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="57"]:after {
+    background-image: -webkit-linear-gradient(154.8deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(154.8deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(-64.8deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="58"]:after {
+    background-image: -webkit-linear-gradient(151.2deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(151.2deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(-61.2deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="59"]:after {
+    background-image: -webkit-linear-gradient(147.6deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(147.6deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(-57.6deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="60"]:after {
+    background-image: -webkit-linear-gradient(144deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(144deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(-54deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="61"]:after {
+    background-image: -webkit-linear-gradient(140.4deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(140.4deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(-50.4deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="62"]:after {
+    background-image: -webkit-linear-gradient(136.8deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(136.8deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(-46.8deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="63"]:after {
+    background-image: -webkit-linear-gradient(133.2deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(133.2deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(-43.2deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="64"]:after {
+    background-image: -webkit-linear-gradient(129.6deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(129.6deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(-39.6deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="65"]:after {
+    background-image: -webkit-linear-gradient(126deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(126deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(-36deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="66"]:after {
+    background-image: -webkit-linear-gradient(122.4deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(122.4deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(-32.4deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="67"]:after {
+    background-image: -webkit-linear-gradient(118.8deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(118.8deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(-28.8deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="68"]:after {
+    background-image: -webkit-linear-gradient(115.2deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(115.2deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(-25.2deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="69"]:after {
+    background-image: -webkit-linear-gradient(111.6deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(111.6deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(-21.6deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="70"]:after {
+    background-image: -webkit-linear-gradient(108deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(108deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(-18deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="71"]:after {
+    background-image: -webkit-linear-gradient(104.4deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(104.4deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(-14.4deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="72"]:after {
+    background-image: -webkit-linear-gradient(100.8deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(100.8deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(-10.8deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="73"]:after {
+    background-image: -webkit-linear-gradient(97.2deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(97.2deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(-7.2deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="74"]:after {
+    background-image: -webkit-linear-gradient(93.6deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(93.6deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(-3.6deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="75"]:after {
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #1591e5), color-stop(50%, transparent), to(transparent)), -webkit-gradient(linear, right top, left top, color-stop(50%, #1591e5), color-stop(50%, #ddd), to(#ddd));
+    background-image: -webkit-linear-gradient(bottom, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(bottom, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(0deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="76"]:after {
+    background-image: -webkit-linear-gradient(86.4deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(86.4deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(3.6deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="77"]:after {
+    background-image: -webkit-linear-gradient(82.8deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(82.8deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(7.2deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="78"]:after {
+    background-image: -webkit-linear-gradient(79.2deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(79.2deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(10.8deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="79"]:after {
+    background-image: -webkit-linear-gradient(75.6deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(75.6deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(14.4deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="80"]:after {
+    background-image: -webkit-linear-gradient(72deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(72deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(18deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="81"]:after {
+    background-image: -webkit-linear-gradient(68.4deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(68.4deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(21.6deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="82"]:after {
+    background-image: -webkit-linear-gradient(64.8deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(64.8deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(25.2deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="83"]:after {
+    background-image: -webkit-linear-gradient(61.2deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(61.2deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(28.8deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="84"]:after {
+    background-image: -webkit-linear-gradient(57.6deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(57.6deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(32.4deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="85"]:after {
+    background-image: -webkit-linear-gradient(54deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(54deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(36deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="86"]:after {
+    background-image: -webkit-linear-gradient(50.4deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(50.4deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(39.6deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="87"]:after {
+    background-image: -webkit-linear-gradient(46.8deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(46.8deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(43.2deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="88"]:after {
+    background-image: -webkit-linear-gradient(43.2deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(43.2deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(46.8deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="89"]:after {
+    background-image: -webkit-linear-gradient(39.6deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(39.6deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(50.4deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="90"]:after {
+    background-image: -webkit-linear-gradient(36deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(36deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(54deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="91"]:after {
+    background-image: -webkit-linear-gradient(32.4deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(32.4deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(57.6deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="92"]:after {
+    background-image: -webkit-linear-gradient(28.8deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(28.8deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(61.2deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="93"]:after {
+    background-image: -webkit-linear-gradient(25.2deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(25.2deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(64.8deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="94"]:after {
+    background-image: -webkit-linear-gradient(21.6deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(21.6deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(68.4deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="95"]:after {
+    background-image: -webkit-linear-gradient(18deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(18deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(72deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="96"]:after {
+    background-image: -webkit-linear-gradient(14.4deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(14.4deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(75.6deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="97"]:after {
+    background-image: -webkit-linear-gradient(10.8deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(10.8deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(79.2deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="98"]:after {
+    background-image: -webkit-linear-gradient(7.2deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(7.2deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(82.8deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="99"]:after {
+    background-image: -webkit-linear-gradient(3.6deg, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(3.6deg, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(86.4deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+.progress-circle[data-progress="100"]:after {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #1591e5), color-stop(50%, transparent), to(transparent)), -webkit-gradient(linear, right top, left top, color-stop(50%, #1591e5), color-stop(50%, #ddd), to(#ddd));
+    background-image: -webkit-linear-gradient(left, #1591e5 50%, transparent 50%, transparent), -webkit-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: -o-linear-gradient(left, #1591e5 50%, transparent 50%, transparent), -o-linear-gradient(right, #1591e5 50%, #ddd 50%, #ddd);
+    background-image: linear-gradient(90deg, #1591e5 50%, transparent 50%, transparent), linear-gradient(270deg, #1591e5 50%, #ddd 50%, #ddd);
+}
+
+
+/* ----------------------------------------------------------------
+  [ end students ]
+-----------------------------------------------------------------*/
+
+
+/* Khaled Awesomeness */
+
+.bread {
+    margin-top: 105px;
+    padding: 30px 15px;
+    background-color: #f5f5f5;
+}
+
+.bread .content {
+    display: flex;
+    align-items: center;
+}
+
+.bread .content li:not(:last-child) {
+    padding-left: 15px;
+}
+
+.bread .content li a {
+    color: #838d8f;
+    font-size: 15px;
+}
+
+.bread .content li:not(:last-child):after {
+    content: "/";
+    margin-right: 10px;
+}
+
+.bread .content li:last-child a {
+    color: #1592e6;
+    font-weight: 600;
+}
+
+.contact-page,
+.about-page,
+.faq-page {
+    margin-top: 30px;
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+.contact-page .field {
+    position: relative;
+    height: 60px;
+    width: 100%;
+}
+
+.contact-page .field:not(:last-of-type) {
+    margin-bottom: 30px;
+}
+
+.contact-page .field:nth-of-type(2) img {
+    top: 20px;
+}
+
+.contact-page .field:last-of-type {
+    height: 200px;
+}
+
+.contact-page .field input,
+.contact-page .field textarea {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #e4e4e4;
+    padding-right: 60px;
+    color: #979797;
+    font-weight: 500;
+    border-radius: 25px;
+}
+
+.contact-page .field input::placeholder,
+.contact-page .field textarea::placeholder {
+    color: #979797;
+    font-weight: 500;
+}
+
+.contact-page .field textarea {
+    padding-top: 20px;
+    resize: none;
+}
+
+.contact-page .field img {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    transform: scale(0.7);
+    width: 25px;
+}
+
+.contact-page form button {
+    width: 170px;
+    height: 60px;
+    border-radius: 25px;
+    background-color: #1592e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    font-size: 18px;
+    color: #fff;
+    margin-top: 35px;
+    transition: 0.5s;
+}
+
+.contact-page form button:hover {
+    transform: translateY(-5px);
+}
+
+.about-page .content h2 {
+    font-size: 18px;
+    color: #1592e6;
+    margin-bottom: 20px;
+}
+
+.about-page .content p {
+    color: #262a41;
+    line-height: 44px;
+    font-size: 15px;
+    font-weight: light;
+}
+
+.faq-page .content h2 {
+    font-size: 18px;
+    color: #262a41;
+    margin-bottom: 20px;
+}
+
+.faq-page .content p {
+    font-size: 16px;
+    color: #262a41;
+    font-weight: lighter;
+    line-height: 40px;
+}
+
+.faq-page .under-sections .have-q {
+    padding: 60px 0;
+    background-color: #1592e6;
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+}
+
+.faq-page .under-sections .have-q h2 {
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.faq-page .under-sections .have-q p {
+    font-size: 19px;
+    color: #fff;
+    font-weight: lighter;
+}
+
+.faq-page .under-sections .have-q form {
+    width: 45%;
+    height: 70px;
+    margin: auto;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.faq-page .under-sections .have-q form input {
+    background-color: #fff;
+    border-radius: 25px;
+    padding-right: 100px;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.06);
+}
+
+.faq-page .under-sections .have-q form button {
+    position: absolute;
+    border: 0;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    height: 40px;
+    padding-left: 30px;
+    border-left: 1px solid #e6e6e6;
+    background-color: transparent;
+}
+
+#faq {
+    margin-top: 150px;
+}
+
+.faq .accordion .card {
+    margin-bottom: 14px;
+    border: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+    border-radius: 25px !important;
+}
+
+.faq .accordion .card .card-header {
+    padding: 0;
+    border: 0 !important;
+    background-color: transparent;
+}
+
+.faq .accordion .card button {
+    position: relative;
+    background-color: transparent;
+    padding: 20px 50px;
+    /* height: 95px; */
+    font-size: 21px;
+    color: #262a41;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: start;
+    border: none;
+    border-radius: 0;
+}
+
+@media (max-width: 480px) {
+    .faq .accordion .card button {
+        font-size: 18.8px;
+    }
+}
+
+@media (max-width: 375px) {
+    .faq .accordion .card button {
+        font-size: 17px;
+    }
+}
+
+.faq .accordion .card button:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.faq .accordion .card button img {
+    color: #fff;
+    margin-left: 20px;
+    font-size: 16px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+[dir="ltr"] .faq .accordion .card button img {
+    margin-right: 20px;
+    margin-left: 0;
+}
+
+.faq .accordion .card button.collapsed {
+    background: none;
+    background-color: #fff;
+}
+
+.faq .accordion .card button.collapsed img {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    color: #3b5e6c;
+}
+
+.faq .accordion .card button:hover {
+    text-decoration: none;
+}
+
+.faq .accordion .card .card-body {
+    padding: 0px 50px 30px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #bcbcbe;
+    line-height: 55px;
+    border: 0 !important;
+    border-radius: 0 0 25px 25px;
+}
+
+@media (max-width: 375px) {
+    .faq .accordion .card .card-body {
+        line-height: 1.6;
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contact-page,
+    .about-page,
+    .faq-page {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .faq-page .under-sections .have-q form {
+        width: 95%;
+    }
+    .faq .accordion .card button {
+        line-height: 2.3;
+    }
+    .faq .accordion .card button {
+        padding: 5px 50px;
+    }
+    .faq-page .content h2 {
+        margin-top: 50px;
+    }
+    .bread {
+        margin-top: 130px;
+    }
+}
+
+
+/* Khaled Awesomeness */
+
+
+/* Profile Pages */
+
+:root {
+    --text-color: #464953;
+    --blue-color: #1592E6;
+}
+
+.profile-content {
+    margin-top: 70px;
+    border-top: 2px solid #E9F3FE;
+    border-bottom: 2px solid #E9F3FE;
+}
+
+.profile-content .content {
+    display: flex;
+}
+
+.profile-content .content .right {
+    padding: 70px 0;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 35px;
+    text-align: center;
+    border-left: 2px solid #E9F3FE;
+}
+
+[dir="ltr"] .profile-content .content .right {
+    border-right: 2px solid #E9F3FE;
+    border-left: none;
+    padding-left: 0;
+    padding-right: 35px;
+}
+
+.profile-content .content .right .user-pic {
+    padding: 5px;
+    background-image: url("../images/user-sh.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.profile-content .content .right .user-pic img {
+    border-radius: 50%;
+    transform: translateY(2px);
+}
+
+.profile-content .content .right .user-details {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.profile-content .content .right .user-details h3 {
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+.profile-content .content .right .user-details p {
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.profile-content .content .right .grads {
+    display: flex;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.profile-content .content .right .grads .box {
+    width: 50%;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile-content .content .right .grads .box:first-child {
+    background-color: #84BADD;
+    color: #FFF;
+}
+
+.profile-content .content .right .grads .box:first-child p {
+    font-size: 27px;
+    color: #FFF;
+}
+
+.profile-content .content .right .grads .box:first-child span {
+    font-size: 16px;
+    color: #FFF;
+}
+
+.profile-content .content .right .grads .box:last-child {
+    background-color: #F5FAFF;
+    color: var(--text-color);
+}
+
+.profile-content .content .right .grads .box:last-child p {
+    font-size: 27px;
+    color: var(--text-color);
+}
+
+.profile-content .content .right .grads .box:last-child span {
+    font-size: 16px;
+    color: var(--text-color);
+}
+
+.profile-content .content .left {
+    width: 70%;
+    padding: 70px 0;
+}
+
+.profile-content .content .left>div {
+    padding-right: 25px;
+}
+
+[dir="ltr"] .profile-content .content .left>div {
+    padding-left: 25px;
+    padding-right: 0;
+}
+
+.profile-content .content .left .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.profile-content .content .left .title h2 {
+    font-size: 25px;
+    color: var(--text-color);
+}
+
+.profile-content .content .left .title a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 50px;
+    font-size: 17px;
+    color: var(--text-color);
+    font-weight: 300;
+    border: 1px solid #E1E1E1;
+}
+
+.profile-content .content .left .title a img {
+    margin-left: 10px;
+}
+
+[dir="ltr"] .profile-content .content .left .title a img {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.profile-content .content .left .bottom-details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile-content .content .left .bottom-details .field {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.profile-content .content .left .bottom-details .field .pic {
+    transform: scale(0.8);
+    margin-left: 10px;
+}
+
+[dir="ltr"] .profile-content .content .left .bottom-details .field .pic {
+    margin-left: 0;
+    margin-right: 10px;
+}
+
+.profile-content .content .left .bottom-details .field span {
+    color: var(--blue-color);
+    font-size: 17px;
+}
+
+.profile-content .content .left .bottom-details .field p {
+    font-size: 18px;
+    color: var(--text-color);
+    font-weight: 300;
+}
+
+.profile-content .content .left .certificates {
+    padding-top: 40px;
+    border-top: 1px solid #E1E1E1;
+}
+
+.profile-content .content .left .certificates h3 {
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.profile-content .content .left .certificates .certs {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile-content .content .left .certificates .certs .cert:not(:last-child) {
+    margin-left: 15px;
+}
+
+[dir="ltr"] .profile-content .content .left .certificates .certs .cert:not(:last-child) {
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+.profile-content .content .left .certificates .certs .cert p {
+    font-size: 14px;
+    color: var(--text-color);
+    margin-top: 5px;
+    text-align: center;
+}
+
+.profile-content .content .left .subjects {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid #E1E1E1;
+}
+
+.profile-content .content .left .subjects h3 {
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.profile-content .content .left .subjects .boxs {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile-content .content .left .subjects .boxs .box:not(:last-child) {
+    margin-left: 15px;
+}
+
+[dir="ltr"] .profile-content .content .left .subjects .boxs .box:not(:last-child) {
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+.profile-content .content .left .subjects .boxs .box .back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 187px;
+    height: 100px;
+    color: #FFF;
+    font-size: 13px;
+    border-radius: 30px;
+}
+
+.profile-content .content .left .subjects .boxs .box .back.fail {
+    background-color: #e94240;
+}
+
+.profile-content .content .left .subjects .boxs .box .back.accept {
+    background-color: #E9A0A0;
+}
+
+.profile-content .content .left .subjects .boxs .box .back.exellent {
+    background-color: #6EE29C;
+}
+
+.profile-content .content .left .subjects .boxs .box .back.good {
+    background-color: #6ED3E2;
+}
+
+.profile-content .content .left .subjects .boxs .box .back.very-good {
+    background-color: #6EA0E2;
+}
+
+.profile-content .content .left .subjects .boxs .box p.fail {
+    color: #e94240;
+}
+
+.profile-content .content .left .subjects .boxs .box p.accept {
+    color: #E9A0A0;
+}
+
+.profile-content .content .left .subjects .boxs .box p.exellent {
+    color: #6EE29C;
+}
+
+.profile-content .content .left .subjects .boxs .box p.good {
+    color: #6ED3E2;
+}
+
+.profile-content .content .left .subjects .boxs .box p.very-good {
+    color: #6EA0E2;
+}
+
+.profile-content .content .left .subjects .boxs .box p {
+    font-size: 15px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+@media(max-width: 991px) {
+    .profile-content .content {
+        flex-direction: column;
+    }
+    .profile-content .content .right,
+    .profile-content .content .left {
+        width: 100%;
+    }
+    .profile-content .content .left>div {
+        padding: 0;
+    }
+    .profile-content .content .right {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .profile-content .content .left .title h2 {
+        font-size: 20px;
+    }
+    .profile-content .content .left .bottom-details .field {
+        width: 100%;
+    }
+    .profile-content .content .left .certificates .certs .cert:not(:last-child),
+    .profile-content .content .left .subjects .boxs .box:not(:last-child) {
+        margin-left: 12px;
+    }
+    .profile-content .content .left .subjects .boxs .box .back {
+        width: 159px;
+    }
+    .profile-content .content .left .certificates .certs .cert:nth-of-type(2n),
+    .profile-content .content .left .subjects .boxs .box:nth-of-type(2n) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+/* Level Page */
+
+.level-page .content-box {
+    margin-top: 50px;
+}
+
+.level-page .content-box h2 {
+    font-size: 22px;
+    color: var(--text-color);
+    font-weight: 500
+}
+
+.level-page .content-box p {
+    line-height: 35px;
+    font-weight: 300;
+    color: var(--text-color);
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+@media (min-width: 992px) {
+    .level-page .content-box p {
+        width: 70%;
+    }
+}
+
+.level-page .level-levels h2 {
+    margin-top: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--text-color);
+    margin-bottom: 30px;
+}
+
+.level-page .level-levels .box {
+    border: 1px solid #E2E2E2;
+}
+
+.level-page .level-levels .box .pic {
+    width: 100%;
+    height: 240px;
+    position: relative;
+}
+
+.level-page .level-levels .box .pic img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+.level-page .level-levels .box .pic .title {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+    height: 50px;
+    background-color: #21242D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+}
+
+.level-page .level-levels .box p {
+    line-height: 30px;
+    color: var(--text-color);
+    font-weight: 200;
+    padding: 25px 11px;
+}
+
+.level-page .end-section {
+    margin-top: 40px;
+}
+
+.level-page .end-section p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 17px;
+    color: var(--text-color);
+}
+
+.level-page .end-section span {
+    font-size: 18px;
+    font-weight: 200;
+    color: #1C699D;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.level-page .end-section a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 75px;
+    border-radius: 25px;
+    background-color: #1592E6;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.level-page .end-section a:hover {
+    transform: translateY(-5px);
+    background-color: var(--text-color);
+}
+
+.exam-page .row .col-lg-7 h2 {
+    font-size: 60px;
+    font-weight: 500;
+    color: #1B1E21;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.exam-page .row .col-lg-7>p {
+    font-size: 20px;
+    color: #1D252D;
+    line-height: 32px;
+    margin-bottom: 28px;
+}
+
+.exam-page .row .col-lg-7 .exam-time .time-head {
+    margin-bottom: 12px;
+}
+
+.exam-page .row .col-lg-7 .exam-time .time-head span {
+    font-size: 16px;
+    color: #1D252D;
+    margin-right: 5px;
+}
+
+.exam-page .times {
+    margin-bottom: 16px;
+}
+
+.exam-page .times span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.exam-page .times span:first-child {
+    color: #E76652;
+}
+
+.exam-page .times span:first-child:after {
+    content: "/";
+    margin-right: 3px;
+}
+
+.exam-page .times span:last-child {
+    color: #1592E6;
+}
+
+.exam-page .tip p {
+    color: #1D252D;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.exam-page .tip span {
+    color: #84878A;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.exam-page .exam-body {
+    padding: 20px 40px;
+    background-color: #FAFAFA;
+}
+
+.exam-page .exam-body .exam-body-in {
+    max-height: 1065px;
+    overflow-y: auto;
+    padding: 0 50px;
+}
+
+.exam-page .exam-body .exam-body-in .top-actions {
+    display: flex;
+    align-items: center;
+    width: 380px;
+    justify-content: space-between;
+    margin-bottom: 65px;
+}
+
+.exam-page .exam-body .exam-body-in .top-actions button {
+    width: 180px;
+    height: 60px;
+    background-color: #4AE0A4;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    border: 0;
+}
+
+.exam-page .exam-body .exam-body-in .top-actions button:last-child {
+    background-color: #F35B5B;
+    margin-right: 20px;
+}
+
+.exam-page .exam-body .exam-body-in .top-actions button span {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #FFF;
+}
+
+.exam-page .exam-body .exam-body-in .q-box .head {
+    margin-bottom: 23px;
+    display: flex;
+    align-items: center;
+}
+
+.exam-page .exam-body .exam-body-in .q-box .head span {
+    font-size: 30px;
+    font-weight: 500;
+    color: #1592E6;
+}
+
+.exam-page .exam-body .exam-body-in .q-box .head h2 {
+    color: #1592E6;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+.exam-page .exam-body .exam-body-in .q-box .head p {
+    font-size: 20px;
+    color: #2C3032;
+    font-weight: bold;
+}
+
+.exam-page .exam-body .exam-body-in .q-box .q-body {
+    padding-right: 35px;
+    border-right: 1px solid rgba(21, 146, 230, .3);
+    margin-bottom: 33px;
+}
+
+.exam-page .exam-body .exam-body-in .q-box .q-body>p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #444444;
+    margin-bottom: 12px;
+}
+
+.exam-page .exam-body .exam-body-in .q-box .q-body>h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    margin-bottom: 20px;
+}
+
+.exam-page .exam-body .exam-body-in .q-box .q-body .answer {
+    display: flex;
+    align-items: center;
+}
+
+.exam-page .exam-body .exam-body-in .q-box .q-body .answer .option {
+    display: flex;
+    align-items: center;
+}
+
+.exam-page .exam-body .exam-body-in .q-box .q-body .answer .option:not(:last-child) {
+    margin-left: 42px;
+}
+
+.exam-page .exam-body .exam-body-in .q-box .q-body .answer .option input {
+    width: 25px;
+    height: 25px;
+    border-right: 5px;
+    border: 1px solid #EBEBEB !important;
+    margin-left: 7px;
+}
+
+.exam-page .exam-body .exam-body-in .q-box .q-body textarea:not(.mini-text) {
+    height: 185px;
+    border-radius: 25px;
+    border: 1px solid #E6E6E6;
+    width: 100%;
+    resize: none;
+    padding: 28px;
+}
+
+.exam-page .exam-body .exam-body-in .q-box .q-body textarea:not(.mini-text)::placeholder {
+    color: #C7C7C7;
+}
+
+.exam-page .exam-body .exam-body-in .q-box .q-body textarea.mini-text {
+    width: 112px;
+    height: 44px;
+    border-radius: 25px;
+    border: 1px solid #E6E6E6;
+    resize: none;
+    margin: 0 15px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.overlaY {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(101, 99, 99, .74);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999999;
+}
+
+.overlaY>.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlaY>.container .content {
+    padding: 90px 30px;
+    background-color: #FFF;
+    border-radius: 25px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.overlaY>.container .content>img {
+    margin-bottom: 21px;
+}
+
+.overlaY>.container .content>h3 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #1592E6;
+}
+
+.overlaY>.container .content .time-left p {
+    font-size: 16px;
+    color: #3B3939;
+    margin-bottom: 15px;
+}
+
+.overlaY>.container .content .time-left span {
+    font-size: 25px;
+    color: #1592E6;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.overlaY>.container .content .actions {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.overlaY>.container .content .actions button {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #707070;
+    background-color: transparent;
+    font-size: 20px;
+    color: #3C3939;
+    transition: .5s;
+}
+
+.overlaY>.container .content .actions button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.overlaY>.container .content .actions button:hover {
+    background-color: #1592E6;
+    color: #FFF;
+    border-color: transparent;
+}
+
+.overlaY>.container .content .actions button:first-child {
+    margin-left: 15px;
+    background-color: #1592E6;
+    color: #FFF;
+    border-color: transparent;
+}
+
+.overlaY>.container .content .actions button:first-child:hover {
+    background-color: transparent;
+    color: #3C3939;
+    border: 1px solid #707070;
+}
+
+
+/* ------------------ new style --------------- */
+
+
+/* ----------------- test-pg ------------------- */
+
+.test-pg .about-test .info {
+    line-height: 2;
+}
+
+.test-pg .about-test .info h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.test-pg .about-test .info h2 small {
+    font-size: 25px;
+}
+
+.test-pg .about-test .info h5 {
+    line-height: 2;
+}
+
+.test-pg .about-test .info p i {
+    color: #1591e5;
+}
+
+.test-btn {
+    padding: 15px 50px;
+    border-radius: 50px;
+    background-color: #1591e5;
+    color: #fff;
+}
+
+.test-btn i {
+    margin-left: 5px;
+}
+
+.test-content {
+    background-color: #FAFAFA;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.test-content .content {
+    overflow-x: hidden;
+    max-height: 1000px;
+    overflow-x: hidden;
+    scroll-behavior: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc #fff;
+}
+
+.test-content .content::-webkit-scrollbar {
+    height: 5px;
+    width: 3px;
+    background: #fff;
+}
+
+.test-content .content::-webkit-scrollbar-thumb {
+    background: #ccc;
+    -webkit-border-radius: 0;
+}
+
+.test-content .content::-webkit-scrollbar-corner {
+    background: #fff;
+}
+
+.question {
+    border-right: 1px solid #1591e599;
+    padding: 15px 30px;
+    position: relative;
+    margin-right: 30px;
+}
+
+.question .q-num {
+    color: #1591e5;
+    font-size: 40px;
+    padding: 10px;
+    background-color: #FAFAFA;
+    position: absolute;
+    right: -30px;
+    top: 0;
+}
+
+.question .custom-control-inline {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+.q-answers label {
+    margin-left: 20px;
+}
+
+.q-answers label input {
+    margin-left: 6px;
+}
+
+.question h4 {
+    color: #1591e5;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.question h4 span {
+    color: #222;
+}
+
+.question p,
+.question .q-title h6 {
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+.question .q-title h6 input {
+    background: #fff;
+    border-radius: 50px;
+    border: 1px solid #9995;
+    padding: 5px;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.question .form-control {
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #fff;
+    border: 1px solid #9995;
+    max-width: 70%;
+    resize: none;
+    color: #b8b8b8;
+    line-height: 2;
+}
+
+
+/* ------------- */
+
+.ask-ques .modal-content {
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.ask-ques .form-group {
+    position: relative;
+}
+
+.ask-ques .form-group span.ico {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    color: #1591e5;
+    font-size: 21px;
+}
+
+.ask-ques .form-group input,
+.ask-ques .form-group textarea {
+    padding: 15px 60px 15px 15px;
+    min-height: 60px;
+    border-radius: 20px;
+    border: 1px solid #9993;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+}
+
+.ask-ques .form-group .img {
+    position: relative;
+}
+
+.ask-ques .form-group .img .custom-file-input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.ask-ques .form-group .img .form-control {
+    pointer-events: none;
+}
+
+.ask-ques .image-ques {
+    margin: 30px;
+    height: 350px;
+    object-fit: cover;
+    object-position: top;
+    width: calc(100% - 60px);
+    border-radius: 20px;
+    display: none;
+}
+
+button.ask-ques-btn {
+    padding: 18px 40px;
+    background: #1591e5;
+    border: 1px solid #1591e5;
+    border: 0;
+    border-radius: 15px;
+    color: #fff;
+    font-weight: 700;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    outline: 0 !important;
+}
+
+button.ask-ques-btn.light {
+    background-color: #fff;
+    border: 1px solid #333;
+    color: #333;
+}
+
+button.ask-ques-btn:hover {
+    background: #21242d;
+}
+
+button.ask-ques-btn.light:hover {
+    color: #fff;
+}
+
+.modal {
+    z-index: 99999;
+}
+
+
+/* ----------------------------------------------------------------
+  [ Responsive ]
+-----------------------------------------------------------------*/
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar .navbar-collapse {
+        display: block !important;
+        position: fixed;
+        top: 100px;
+        right: -400px;
+        width: 320px;
+        background: #21242d;
+        padding: 30px;
+        text-align: right;
+        -webkit-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    .navbar .navbar-collapse .nav-item {
+        margin: 10px 0;
+    }
+    .navbar .navbar-collapse.show {
+        right: -30px;
+    }
+    .navbar .icon-bar {
+        display: block;
+        margin-right: 15px;
+    }
+    .nav-scroll .navbar-collapse {
+        top: 80px;
+    }
+    .navbar .navbar-nav .dropdown-menu {
+        width: auto;
+    }
+    .about .img {
+        position: relative;
+        top: 0;
+        right: 0;
+        margin: 30px auto;
+    }
+    .about .img:before {
+        top: -15px;
+        left: -15px;
+    }
+    .about .img:after {
+        top: -7px;
+        left: -7px;
+    }
+    .about .pat.one {
+        bottom: 0;
+    }
+    .login-sec .form form {
+        right: 0px;
+    }
+    .services .arrows .next,
+    .services .arrows .prev,
+    .course .arrows .next,
+    .course .arrows .prev {
+        overflow: hidden;
+    }
+    footer .main-footer .item {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home .box {
+        padding: 40px 40px 40px 80px;
+    }
+    .about {
+        padding: 120px 30px;
+    }
+    .about .img,
+    .about .img:before,
+    .about .img:after {
+        width: 400px;
+        height: 400px;
+    }
+    .services .arrows .next,
+    .course .arrows .next {
+        right: 0;
+        z-index: 2;
+        background: #fff;
+    }
+    .services .arrows .prev,
+    .course .arrows .prev {
+        left: 0;
+        z-index: 2;
+        background: #fff;
+    }
+    footer .sub-footer .text-right,
+    footer .sub-footer .text-left {
+        text-align: center !important;
+        margin-top: 15px;
+    }
+    .author-box .levels {
+        margin: 40px 0px;
+    }
+    .students .filters .box {
+        display: grid;
+        margin-right: 0px;
+        margin: 10px;
+    }
+    .question .form-control {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 35px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+    h6 {
+        font-size: 14px;
+    }
+    .navbar .logo {
+        width: 120px;
+    }
+    .home {
+        min-height: 130vh;
+        padding-bottom: 60px;
+    }
+    .home .caption h1 {
+        font-size: 35px;
+    }
+    .about .img,
+    .about .img:before,
+    .about .img:after {
+        width: 250px;
+        height: 250px;
+    }
+    .nav-pills li {
+        width: 120px;
+    }
+    .login-sec .soical-login .face-log {
+        display: inline-flex;
+    }
+    .login-sec .soical-login .face-log span {
+        font-size: 10px;
+    }
+    .login-sec .soical-login .face-log i:after {
+        display: none;
+    }
+    .course-details .tab-content .download-pdf .dwld {
+        font-size: 15px;
+        width: 150px;
+    }
+    .test-content {
+        padding: 50px 0px;
+    }
+    .subscribe form .form-group button {
+        width: 120px;
+    }
+}
+
+@media (max-width: 991px) {
+    .exam-page {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .exam-page .exam-body {
+        padding: 20px;
+    }
+    .exam-page .exam-body .exam-body-in {
+        padding: 0;
+    }
+    .exam-page .exam-body .exam-body-in .top-actions {
+        width: 100%;
+        justify-content: unset;
+    }
+    .exam-page .exam-body .exam-body-in .top-actions button {
+        width: 120px;
+        height: 45px;
+    }
+    .exam-page .exam-body .exam-body-in .q-box .q-body .answer {
+        flex-wrap: wrap;
+    }
+    .exam-page .exam-body .exam-body-in .q-box .q-body .answer .option {
+        margin-bottom: 10px;
+    }
+    .exam-page .exam-body .exam-body-in .q-box .q-body {
+        padding-right: 15px;
+    }
+    .exam-page .exam-body .exam-body-in .q-box .q-body .answer.verti {
+        flex-direction: column;
+    }
+    .exam-page .exam-body .exam-body-in .q-box .q-body textarea.mini-text {
+        margin: 15px 0;
+    }
+    .overlaY>.container .content>h3 {
+        font-size: 21px;
+    }
+    .overlaY>.container .content {
+        padding: 30px;
+    }
+    .overlaY>.container .content .actions {
+        margin-top: 30px;
+    }
+}
+
+
+/* Profile Pages */

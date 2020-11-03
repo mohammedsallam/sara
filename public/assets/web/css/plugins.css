@@ -1,0 +1,43 @@
+
+
+/* ----------------------------------------------------------------
+			[ All Css Plugins & Helper Classes File ]
+-----------------------------------------------------------------*/
+
+/* == animate css == */
+@import url("plugins/animate.min.css");
+
+/* == themify-icons icon font == */
+@import url("plugins/themify-icons.css");
+
+/* == flaticon icon font == */
+@import url("../fonts/flaticon/flaticon.css");
+
+/* == fontawesome icon font == */
+@import url("plugins/fontawesome-all.css");
+
+/* == pe-icon-7-stroke == */
+@import url("plugins/pe-icon-7-stroke.css");
+
+/* == remixicon == */
+@import url("plugins/remixicon.css");
+
+/* == YouTubePopUp == */
+@import url("plugins/YouTubePopUp.css");
+
+/* == magnific-popup == */
+@import url("plugins/magnific-popup.css");
+
+/* == helper classes == */
+@import url("plugins/helper.css");
+
+@import url("plugins/jquery-ui.css");
+@import url("plugins/jquery-ui.theme.css");
+
+/* == slick carousel == */
+@import url("plugins/slick.css");
+@import url("plugins/slick-theme.css");
+
+/* == swiper.min font == */
+@import url("plugins/swiper.min.css");
+

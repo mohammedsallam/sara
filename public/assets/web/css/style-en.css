@@ -1,0 +1,197 @@
+/* ----------------------------------------------------------------
+     [  Start Basics ]
+-----------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+}
+body {
+    text-align: left;
+}
+/* ----------------------------------------------------------------
+     [ Start Footer ]
+-----------------------------------------------------------------*/
+footer .main-footer .item .title:after {
+    left: 0;
+}
+footer .main-footer .item ul li .icon {
+    margin-right: 10px;
+}
+footer .sub-footer .text-left {
+    text-align: right !important;
+}
+footer .sub-footer .text-right {
+    text-align: left !important;
+}
+footer .sub-footer .text-right a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid #eee;
+    border-left: none;
+}
+
+/* ----------------------------------------------------------------
+     [  Start About Page ]
+-----------------------------------------------------------------*/
+.about .img {
+    left: -30%;
+}
+
+.about .pat.one {
+    left: -50px;
+}
+/* ----------------------------------------------------------------
+     [  Start contact Page ]
+-----------------------------------------------------------------*/
+.contact-page .field img {
+    left: 15px;
+}
+.contact-page .field input,
+.contact-page .field textarea {
+    padding-right: 0px;
+    padding-left: 60px;
+}
+/* ----------------------------------------------------------------
+     [  Start courses Page ]
+-----------------------------------------------------------------*/
+.ask-ques .form-group input, 
+.ask-ques .form-group textarea {
+    padding: 15px 15px 15px 60px;
+}
+.ask-ques .form-group span.ico {
+    left: 15px;
+}
+/* ----------------------------------------------------------------
+     [  Start Exam Page ]
+-----------------------------------------------------------------*/
+.exam-page .exam-body .exam-body-in .q-box .q-body .answer .option input {
+    margin-right: 7px;
+    margin-left: 0px;
+}
+.exam-page .exam-body .exam-body-in .top-actions button:last-child {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* ----------------------------------------------------------------
+     [  Start faq Page ]
+-----------------------------------------------------------------*/
+.faq .accordion .card button img {
+    margin-right: 20px;
+    margin-left: 0px;
+}
+.faq-page .under-sections .have-q form input {
+    padding-left: 20px;
+}
+/* ----------------------------------------------------------------
+     [  Start index Page ]
+-----------------------------------------------------------------*/
+.home .box .icon {
+    margin-right: 15px;
+}
+.subscribe form .form-group button i {
+    margin-right: 15px;
+}
+.about {
+    overflow: hidden;
+}
+/* ----------------------------------------------------------------
+     [  Start levels Page ]
+-----------------------------------------------------------------*/
+.levels-box .tit-head {
+    text-align: left;
+}
+.levels-box .item .lab {
+    right: 15px;
+    text-align: right;
+}
+/* ----------------------------------------------------------------
+     [  Start login Page ]
+-----------------------------------------------------------------*/
+.login-sec .form {
+    padding-left: 0%;
+}
+.login-sec .form form {
+    right: 0px; 
+    left: -50px;
+}
+.login-sec .form .rem {
+    float: right;
+}
+.login-sec .form input, .login-sec .form .box {
+    padding: 25px  25px 25px 55px;
+}
+.login-sec .form form .form-group .icon {
+    left: 15px;
+}
+/* ----------------------------------------------------------------
+     [  Start profile Page ]
+-----------------------------------------------------------------*/
+.profile-content .content .left .bottom-details .field .pic {
+    margin-left: 0px; 
+    margin-right: 10px; 
+
+}
+.profile-content .content .left .title a img {
+    margin-left: 0px; 
+    margin-right: 10px; 
+}
+/* ----------------------------------------------------------------
+     [  Start single course Page ]
+-----------------------------------------------------------------*/
+.course-details .tab-content .content-course .lessons li .tit i{
+    margin-left: 0px;
+    margin-right: 15px;
+}
+.course-details .tab-content .content-course .lessons li .duration {
+    margin-left: auto;
+    margin-right: unset;
+}
+.course-details .tab-content .content-course .lessons li .download-btn {
+    margin-right: 0px;
+    margin-left: 50px;
+}
+.course-details .tab-content .list ul li:after {
+    right: unset;
+    left: -30px;
+}
+.course-details .tab-content .list ul li {
+    padding-right: 0px;
+    margin-left: 30px;
+}
+.course-details .tab-content .author .info {
+    float: right;
+    margin: 25px 0 0  20px ;
+
+}
+/* ----------------------------------------------------------------
+     [  Start students Page ]
+-----------------------------------------------------------------*/
+.students .filters h6 {
+    margin-right: 15px;
+}
+@media screen and (max-width: 992px) {
+    .about .img {
+        left: 0;
+    }
+    .login-sec .form form {
+        left: 0px; 
+    }
+    .login-sec .soical-login .face-log {
+        display: inline-flex;
+    }
+    .login-sec .soical-login .face-log span{
+        font-size: 10px;
+    }
+    .login-sec .soical-login .face-log i:after {
+        display: none;
+    }
+}
+/* ----------------------------------------------------------------
+     [  Start test Page ]
+-----------------------------------------------------------------*/
+.q-answers label input {
+    margin-left: 0px;
+    margin-right: 6px;
+}
